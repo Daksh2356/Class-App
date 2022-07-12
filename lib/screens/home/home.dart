@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:try1/chat/chat_box.dart';
+// import 'package:try1/chat/chat_box.dart';
 import 'package:try1/screens/home/settings_form.dart';
 import 'package:try1/screens/home/student_list.dart';
 import 'package:try1/services/auth.dart';
@@ -60,18 +60,18 @@ class Home extends StatelessWidget {
           ),
         onPressed: () => _showsettingsPanel(),
       ),
-            TextButton.icon(
-                onPressed: ()=> {
-                 chatpage()
-                },
-                icon: Icon(Icons.chat,
-                    color: Colors.black),
-              label: Text('Chat',
-                style: TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 14),
-              ),)
+            // TextButton.icon(
+            //     onPressed: ()=> {
+            //      chatpage()
+            //     },
+            //     icon: Icon(Icons.chat,
+            //         color: Colors.black),
+            //   label: Text('Chat',
+            //     style: TextStyle(
+            //         color: Colors.black,
+            //         fontWeight: FontWeight.bold,
+            //         fontSize: 14),
+            //   ),)
       ],
       ),
         body : Container(
